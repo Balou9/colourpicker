@@ -1,0 +1,20 @@
+{
+  "name": "colorpicker",
+  "version": "1.0.0",
+  "description": "Pick a colour from color array randomly",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [],
+  "author": "Emmanuel Owosekun",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "css-color-names": "0.0.4",
+    "html-colors": "0.0.4",
+    "tabletojson": "^0.6.0"
+  }
+}
