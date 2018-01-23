@@ -15,7 +15,7 @@ function dot (a,b) {
 }
 
 function hex2rgb (hex) {
-  var rgb = hex.slice(1).match(/.{2}|.{1,2}/)
+  var rgb = hex.slice(1).match(/.{2}|.{1,2}/g)
   return rgb
 }
 
@@ -42,7 +42,7 @@ function randomColor (opts) {
 
 module.exports = randomColor
 
-var opt = randomColor()
-console.log(opt)
-console.log(hex2rgb(opt))
+var output = randomColor()
+console.log(output)
+console.log(hex2rgb(output))
 // console.log(randomColor({rgb: true}))
