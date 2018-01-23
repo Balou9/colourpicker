@@ -1,6 +1,10 @@
 # colourpicker
 
-This colourpicker picks a hex color out of colours randomly!
+This colourpicker picks a hex color randomly.
 
 **Options**
-Get rgb color notation by setting rgb option as true.
+Get rgb color by setting rgb option as true.
+
+## License
+
+[MIT](./license.md)
