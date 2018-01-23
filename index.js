@@ -15,7 +15,7 @@ function dot (a,b) {
 }
 
 function hex2rgb (hex) {
-  var rgb = hex.slice(1).match(/.{2}|.{1,2}/g)
+  var rgb = hex.slice(1).match(/.{2}|.{1,2}/)
   return rgb
 }
 
